@@ -828,11 +828,10 @@ header .logo a {
 	height: 12px;
 	background-repeat: no-repeat;
 	background-position: 0 0;
-	background-image: url("../images/logo.png");
+	
 }
 @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
 	header .logo a {
-		background-image: url("../images/logo-@2x.png");
 		-webkit-background-size: 126px 12px;
 		-moz-background-size: 126px 12px;
 		background-size: 126px 12px;
@@ -895,7 +894,6 @@ ul#nav li a:active {
 	background-color: transparent !important;
 }
 ul#nav li.current a {
-	background: #f26522;
 	color: white;
 }
 
@@ -1157,7 +1155,7 @@ hr {
 /* page title
 ---------------------------------------------------------------------- */
 #page-title {
-	background: #12151b url(../images/los.jpg) no-repeat center center fixed;
+	background: #12151b url(../images/mountains.jpeg) no-repeat center center fixed;
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
@@ -1277,7 +1275,7 @@ hr {
 /* k. Hero Section
 /* =================================================================== */
 #hero {
-	background: #12151b url(../images/los.jpg) no-repeat center center fixed;
+	background: #12151b url(../images/mountains.jpeg) no-repeat center center fixed;
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
@@ -1442,7 +1440,8 @@ hr {
 /* =================================================================== */
 #portfolio {
 	background: white;
-	padding-top: 120px;
+	padding-top: 35px;
+	padding-bottom: 35px;
 }
 .ie #portfolio .row.items {
 	width: 1140px;
@@ -1714,7 +1713,7 @@ hr {
 /* =================================================================== */
 #contact {
 	background: #12151b;
-	padding-top: 120px;
+	padding-top: 35px;
 	padding-bottom: 102px;
 	overflow: hidden;
 }
@@ -1750,7 +1749,7 @@ hr {
 	border: 3px solid #575859;
 }
 #contact textarea {
-	height: 252px;
+	height: 100px;
 }
 #contact input:focus, 
 #contact textarea:focus, 
