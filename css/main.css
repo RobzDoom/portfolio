@@ -1280,7 +1280,7 @@ hr {
 	-moz-background-size: cover !important;
 	background-size: cover !important;
 	padding-top: 66px;
-	padding-bottom: 90px;
+	padding-bottom: 120px;
 	width: 100%;
 	text-align: center;
 	position: relative;
@@ -1599,6 +1599,10 @@ hr {
 #about .right {
 	padding-left: 30px;
 }
+#profile_pic{
+	width: 75vh;
+	height: 55vh;
+};
 
 /* Team Section
 /* -------------------------------------------------------------------- */
