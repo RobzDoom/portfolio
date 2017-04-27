@@ -1440,7 +1440,7 @@ hr {
 /* =================================================================== */
 #portfolio {
 	background: white;
-	padding-top: 35px;
+	padding-top: 75px;
 	padding-bottom: 35px;
 }
 .ie #portfolio .row.items {
@@ -1713,8 +1713,8 @@ hr {
 /* =================================================================== */
 #contact {
 	background: #12151b;
-	padding-top: 35px;
-	padding-bottom: 102px;
+	padding-top: 70px;
+	padding-bottom: 0px;
 	overflow: hidden;
 }
 #contact .row {
