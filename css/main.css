@@ -45,7 +45,7 @@ body {
 	background: #0e1015;
 	font: 15px/30px "merriweather-regular", serif;
 	font-weight: normal;
-	color: white;
+	/*color: white;*/
 }
 
 /* Links
@@ -894,7 +894,7 @@ ul#nav li a:active {
 	background-color: transparent !important;
 }
 ul#nav li.current a {
-	color: white;
+	/*color: white;*/
 }
 
 
@@ -2000,3 +2000,11 @@ hr {
 .more-projects .portfolio-wrapper {
 	text-align: left;
 }
+
+/* Some of my customs
+/* ------------------------------------------------------------------- */
+
+.links {
+	margin-right: 20px; 
+}
+
