@@ -236,5 +236,15 @@
 
 	}); 
 
+$(document).ready(function(){
+			var number =$('<li>').addClass('infoz').text('661-74'+'2-0364').attr('href', '661-742-0364');
+        	$(number).appendTo('#bemail');
+			var number =$('<li>').addClass('infoz').text('jorgecruz.'+'rd@gmail.com').attr('href', 'mailto:jorgecruz.rd' + '@gmail.com');
+        	$(number).appendTo('#bemail');
 
-})(jQuery);
+	})
+
+}
+
+
+)(jQuery);
