@@ -1,0 +1,115 @@
+body{
+    background-image: url('pictures/wood-desk-background.jpg');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+
+}
+
+header{
+    background-color: gray;
+    height: 17vh;
+    width: 100vw;
+
+}
+.header_info{
+    text-align: center;
+    color: white;
+    display: block;
+
+}
+h1{
+    text-align: center;
+    margin-top: 0vh;
+    border-top: hidden 2vh;
+}
+
+.calculator_container{
+    width: 40vw;
+    height: 50vh;
+    border: solid black;
+    margin: auto;
+    padding-left: 7vw;
+    background-color: #009ACD;
+    margin-top: 10vh;
+}
+
+.top_signs{
+    display: inline-block;
+    margin-right: 2vw;
+}
+.numbers{
+    display: inline-block;
+}
+
+.numericals div button{
+    display: inline-block;
+    margin-top: 2vh;
+}
+
+.top_buttons button{
+    border: solid 1px;
+
+    color: white;
+    background-color: orange;
+
+    width: 22%;
+    height: 6vh;
+    margin-top: 3vh;
+    margin-right: 2vh;
+    text-align: center;
+}
+
+body div div div button{
+    border: solid 1px;
+    color: white;
+    background-color: orange;
+    width: 18%;
+    font-size: 1.7rem;
+    text-align: center;
+    height: 5vh;
+}
+.display{
+    background-color: #022c3e;
+    color: white;
+    text-align: center;
+    width: 25vw;
+    height: 7vh;
+    text-align: right;
+    margin-top: 2vh;
+}
+
+@media screen and (max-width: 736px) {
+    .display{
+        background-color: #022c3e;
+        color: white;
+        text-align: center;
+        width: 71vw;
+        height: 7vh;
+        text-align: left;
+        margin-top: 2vh;
+    }
+    .calculator_container{
+        width: 90vw;
+        height: 50vh;
+        border: solid black;
+        margin: auto;
+        padding-left: 10vw;
+        background-color: #009ACD;
+        margin-top: 8vh;
+    }
+    body div div div button{
+        border: solid 1px;
+        color: white;
+        background-color: orange;
+        width: 21%;
+        font-size: 5.7rem;
+        text-align: center;
+        height: 5vh;
+    }
+    
+
+}
+
+
+
+
