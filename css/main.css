@@ -1597,6 +1597,8 @@ hr {
 }
 #about p {
 	color: #707273;
+	text-align: initial;
+	text-indent: 50px;
 }
 #about .left {
 	padding-right: 30px;
@@ -2011,4 +2013,6 @@ hr {
 .links {
 	margin-right: 20px; 
 }
-
+.about1{
+	text-indent: 50px;
+}
