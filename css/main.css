@@ -1598,7 +1598,7 @@ hr {
 	margin-bottom: 0;
 }
 #about p {
-	color: #707273;
+	color: black;
 	text-align: initial;
 	text-indent: 50px;
 }
@@ -2007,6 +2007,9 @@ hr {
 }
 .more-projects .portfolio-wrapper {
 	text-align: left;
+}
+#project1{
+	color: white
 }
 
 /* Some of my customs
