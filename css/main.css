@@ -1600,7 +1600,6 @@ hr {
 #about p {
 	color: black;
 	text-align: initial;
-	text-indent: 50px;
 }
 #about .left {
 	padding-right: 30px;
@@ -1612,6 +1611,9 @@ hr {
 	width: 75vh;
 	
 };
+#aboutMe{
+	text-indent: 50px;
+}
 /* Team Section
 /* -------------------------------------------------------------------- */
 #about #team {
