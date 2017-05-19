@@ -114,7 +114,7 @@ p img {
 }
 p.lead {
 	font: 17px/33px "merriweather-light", serif;
-	color: #707273;
+	color: black;
 }
 em {
 	font: 15px/30px "merriweather-italic", serif;
@@ -1516,7 +1516,7 @@ hr {
 }
 .item .item-wrap .portfolio-item-meta p {
 	font: 14px/18px "raleway-semibold", sans-serif;
-	color: #fbcab3;
+	color: black;
 	margin: 0;
 }
 
